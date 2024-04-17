@@ -1,0 +1,63 @@
+.form{
+    display: flex;
+    
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+h2{
+    display: flex;
+    justify-content: left;
+}
+
+.updateBtn{
+    background: blue;
+    color: white;
+    border: none;
+    width: 5rem;
+    height: 3rem;
+    margin: 20px;
+}
+.verifyBtn{
+    
+   
+    color:black;
+    background-color:transparent;
+    cursor: pointer;
+    border-radius: 8px;
+   
+    box-shadow: 0 3px 3px 2px rgba(107, 106, 106,200);
+
+}
+.name{
+    font-size: 2.5rem;
+    margin: 5px;
+}
+.details ul {
+    width: 150%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+.details ul li {
+    list-style: none;
+    margin: 15px 0;
+}
+
+
+
+
+.profImg img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%; 
+   border: solid;
+    object-fit: cover; 
+}

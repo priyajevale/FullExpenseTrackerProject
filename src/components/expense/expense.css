@@ -1,0 +1,274 @@
+/* .h2 {
+    font-size: 2em;        
+    color: #333;         
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;     
+    margin-bottom: 15px;   
+    text-align: center;    
+  }
+
+  
+  col-md-5{
+    border: solid;
+    
+  }
+  .dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+
+
+  
+.exp-list {
+  
+  max-width: 60%;
+  margin: auto;
+}
+
+.expenses {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  font-size: 1.5rem;
+
+}
+
+.expense-item {
+  background-color: #3b72e1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-desc,
+.expense-price,
+.expense-category {
+    color:white;
+  flex: 1;
+  margin-right: 10px; 
+}
+.deleteBTN{
+  color:white;
+  background-color: rgba(255, 25, 0, 0.799);
+  width: 5rem;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+}
+.deleteBTN:hover{
+  color:rgba(255, 255, 255, 0.848);
+  background-color: rgba(136, 34, 34, 0.803);
+}
+
+.editBTN{
+  color:white;
+  background-color: rgb(50, 205, 97);
+  width: 5rem;
+  border-radius: 5%;
+  border: none;
+
+  cursor: pointer;
+}
+.editBTN:hover{
+  color:rgba(255, 255, 255, 0.848);
+  background-color: rgb(137, 134, 134);
+}
+.Total{
+  color:rgb(39, 78, 233);
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+
+}
+.premium-button{
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  margin-bottom: 5rem;
+  
+}
+
+.premium-button1{
+  background-color: green;
+  color: #d8ba0a;
+  border-radius: 15px;
+  border: none;
+  height: 4rem;
+}
+
+.propButton{
+   color:white;
+  background-color: rgb(0, 128, 9);
+  width:auto;
+  border: none;
+  border-radius: 5px;
+  font-family: cursive;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 3px 2px rgba(44, 42, 42, 0.656);
+  cursor: pointer;
+  margin:0 1rem;
+}
+.premiumProp{
+  display: flex;
+  flex-direction: column;
+}
+.formbody{
+    border-radius: 12px;
+    border: 2px solid violet;
+    background-color: #c9c3c3;
+    
+}
+.col-md-5 p-3 border h2{
+    color:aqua
+}
+.form-label{
+    color:#3b72e1;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn btn-primary{
+    background-color: purple;
+}
+.formbody{
+    display: flex;
+    justify-content: center;
+    
+  } */
+  
+  .h2 {
+    font-size: 2em;        
+    color: #333;         
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;     
+    margin-bottom: 15px;   
+    text-align: center;    
+}
+
+.col-md-5 {
+    border: solid;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.exp-list {
+    max-width: 60%;
+    margin: auto;
+}
+
+.expenses {
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.expense-item {
+    background-color: #3b72e1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expense-desc,
+.expense-price,
+.expense-category {
+    color: white;
+    flex: 1;
+    margin-right: 10px; 
+}
+
+.deleteBTN {
+    color: white;
+    background-color: rgba(255, 25, 0, 0.799);
+    width: 5rem;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteBTN:hover {
+    color: rgba(255, 255, 255, 0.848);
+    background-color: rgba(136, 34, 34, 0.803);
+}
+
+.editBTN {
+    color: white;
+    background-color: rgb(50, 205, 97);
+    width: 5rem;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+}
+
+.editBTN:hover {
+    color: rgba(255, 255, 255, 0.848);
+    background-color: rgb(137, 134, 134);
+}
+
+.Total {
+    color: rgb(39, 78, 233);
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.premium-button {
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    margin-bottom: 5rem;
+}
+
+.premium-button1 {
+    background-color: green;
+    color: #d8ba0a;
+    border-radius: 15px;
+    border: none;
+    height: 4rem;
+}
+
+.propButton {
+    color: white;
+    background-color: rgb(0, 128, 9);
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 3px 2px rgba(44, 42, 42, 0.656);
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.premiumProp {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-label {
+    color: #3b72e1;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn.btn-primary {
+    background-color: purple;
+}
+
+.formbody {
+    display: flex;
+    justify-content: center;
+}
